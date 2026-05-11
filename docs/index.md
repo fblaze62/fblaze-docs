@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 玩家指南
-      link: /guide/player/download-modpack
+      link: /guide/player/modpack
     - theme: alt
       text: 管理员指南
       link: /guide/op/plugin/AuthMe

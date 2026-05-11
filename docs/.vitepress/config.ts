@@ -91,7 +91,7 @@ export default defineConfig({
       { text: "首页", link: "/" },
       {
         text: "玩家指南",
-        link: "/guide/player/download-modpack",
+        link: "/guide/player/modpack",
         activeMatch: "/01.玩家指南/01.加入服务器",
       },
       { text: "管理员指南", link: "/guide/op/plugin/AuthMe", activeMatch: "/02.管理员指南/01.插件/" },
