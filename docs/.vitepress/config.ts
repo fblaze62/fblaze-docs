@@ -119,12 +119,12 @@ export default defineConfig({
         link: "https://space.bilibili.com/3493078679686026"
       },
       {
-        icon: "lets-icons:message",
-        link: "mailto:feablaze@outlook.com"
-      },
-      {
         icon: "github",
         link: "https://github.com/fblaze62/fblaze-doc",
+      },
+      {
+        icon: "✉️",
+        link: "mailto:info@fblaze62.top"
       },
     ],
     search: {
