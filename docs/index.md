@@ -14,7 +14,7 @@ hero:
       link: /guide/op/plugin/AuthMe
   image:
     src: https://gcore.jsdelivr.net/gh/fblaze62/fblaze-doc@main/docs/public/fblaze-logo-large.png
-    alt: Teek
+    alt: FBlazeServer
 
 features:
   - icon: 📖
