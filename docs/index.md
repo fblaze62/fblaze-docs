@@ -49,6 +49,7 @@ features:
   <TkIcon icon="fa6-brands:qq" />[3992485572](https://qm.qq.com/q/BZygZfIjdu)<br>
   <TkIcon icon="fa7-brands:bilibili" />[FeatherBlaze](https://space.bilibili.com/3493078679686026)<br>
   <TkIcon icon="fa7-brands:tiktok" />[FeatherBlaze](https://www.douyin.com/user/MS4wLjABAAAAl5uvfzN213pYEYwH3z0Fg1EW0SXk8-oGHe11MUPSpK_bCYcZoevLky97wDl-siDR)<br>
+  <TkIcon icon="simple-icons:xiaohongshu" />[FeatherBlaze (小红书号：42667737335)](https://xhslink.com/m/A2gTxR1Rk4g)
 - <mark>建筑管理</mark> 天御千云<br>
   <TkIcon icon="fa7-brands:xbox" />SKY_cloud_tyqy93<br>
   <TkIcon icon="fa7-solid:envelope" />[3911422907@qq.com](mailto:3911422907@qq.com)<br>
