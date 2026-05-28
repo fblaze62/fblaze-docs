@@ -45,20 +45,17 @@ features:
 
 - **服务器管理** FeatherBlaze
 
-  <mark>正版</mark>FeaBlaze
-  <mark>电子邮件</mark>[feablaze@outlook.com](mailto:feablaze@outlook.com)
-  <mark>GitHub</mark>[fblaze62 (FeatherBlaze)](https://github.com/fblaze62/)
-  <mark>QQ</mark>[3992485572](https://qm.qq.com/q/BZygZfIjdu)
-  <mark>哔哩哔哩</mark>[FeatherBlaze](https://space.bilibili.com/3493078679686026)
-  <mark>抖音</mark>[FeatherBlaze](https://www.douyin.com/user/MS4wLjABAAAAl5uvfzN213pYEYwH3z0Fg1EW0SXk8-oGHe11MUPSpK_bCYcZoevLky97wDl-siDR)
-  <mark>链滴</mark>[FeatherBlaze](https://ld246.com/member/FeatherBlaze/points)
-  <mark>洛谷</mark>[FeatherBlaze](https://www.luogu.com.cn/user/1656141)
+  <TkIcon icon="fa7-brands:xbox" />FeaBlaze
+  <TkIcon icon="fa7-solid:envelope" />[feablaze@outlook.com](mailto:feablaze@outlook.com)
+  <TkIcon icon="fa6-brands:qq" />[3992485572](https://qm.qq.com/q/BZygZfIjdu)
+  <TkIcon icon="fa7-brands:bilibili" />[FeatherBlaze](https://space.bilibili.com/3493078679686026)
+  <TkIcon icon="fa7-brands:tiktok" />[FeatherBlaze](https://www.douyin.com/user/MS4wLjABAAAAl5uvfzN213pYEYwH3z0Fg1EW0SXk8-oGHe11MUPSpK_bCYcZoevLky97wDl-siDR)
 - **建筑管理** 天御千云
 
-  <mark>正版</mark>SKY_cloud_tyqy93
-  <mark>电子邮件</mark>[3911422907@qq.com](mailto:3911422907@qq.com)
-  <mark>QQ</mark>3911422907
-  <mark>哔哩哔哩</mark>[天御千云TianYun](https://space.bilibili.com/3546898069719530)
+  <TkIcon icon="fa7-brands:xbox" />SKY_cloud_tyqy93
+  <TkIcon icon="material-symbols:mail-outline-rounded" />[3911422907@qq.com](mailto:3911422907@qq.com)
+  <TkIcon icon="icon-park-outline:tencent-qq" />3911422907
+  <TkIcon icon="fa7-brands:bilibili" />[天御千云TianYun](https://space.bilibili.com/3546898069719530)
 
 ## 反馈交流
 

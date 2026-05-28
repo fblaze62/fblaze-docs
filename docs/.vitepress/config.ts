@@ -115,8 +115,8 @@ export default defineConfig({
         link: "https://qm.qq.com/cgi-bin/qm/qr?k=9nXo2s8a3l7b1h0ZyKjYl5u9eQGgHqN&jump_from=webapi"
       },
       {
-        icon: "bilibili",
-        link: "https://space.bilibili.com/3493078679686026"
+        icon: "fa7-solid:envelope",
+        link: "mailto:mc@fblaze62.top"
       },
       {
         icon: "github",
