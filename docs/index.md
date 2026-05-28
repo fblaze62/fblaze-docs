@@ -43,13 +43,26 @@ features:
 
 ### 管理员团队
 
-**服务器管理** FeatherBlaze <mark>正版</mark>FeaBlaze
+- **服务器管理** FeatherBlaze
 
-**建筑管理** 天御千云 <mark>正版</mark>SKY_cloud_tyqy93
+  <mark>正版</mark>FeaBlaze
+  <mark>电子邮件</mark>[feablaze@outlook.com](mailto:feablaze@outlook.com)
+  <mark>GitHub</mark>[fblaze62 (FeatherBlaze)](https://github.com/fblaze62/)
+  <mark>QQ</mark>[3992485572](https://qm.qq.com/q/BZygZfIjdu)
+  <mark>哔哩哔哩</mark>[FeatherBlaze](https://space.bilibili.com/3493078679686026)
+  <mark>抖音</mark>[FeatherBlaze](https://www.douyin.com/user/MS4wLjABAAAAl5uvfzN213pYEYwH3z0Fg1EW0SXk8-oGHe11MUPSpK_bCYcZoevLky97wDl-siDR)
+  <mark>链滴</mark>[FeatherBlaze](https://ld246.com/member/FeatherBlaze/points)
+  <mark>洛谷</mark>[FeatherBlaze](https://www.luogu.com.cn/user/1656141)
+- **建筑管理** 天御千云
+
+  <mark>正版</mark>SKY_cloud_tyqy93
+  <mark>电子邮件</mark>[3911422907@qq.com](mailto:3911422907@qq.com)
+  <mark>QQ</mark>3911422907
+  <mark>哔哩哔哩</mark>[天御千云TianYun](https://space.bilibili.com/3546898069719530)
 
 ## 反馈交流
 
-在游玩过程中有任何建议和想法，请反馈到QQ群“飞焰FBlaze·Players”（右上角图标）。你也可以通过电子邮件[info@fblaze62.top](mailto:info@fblaze62.top)联系我们
+在游玩过程中有任何建议和想法，请反馈到QQ群“飞焰FBlaze·Players”（右上角图标）。你也可以通过电子邮件[mc@fblaze62.top](mailto:mc@fblaze62.top)联系我们。
 
 <script setup lang="ts">
 import { onMounted } from "vue";
