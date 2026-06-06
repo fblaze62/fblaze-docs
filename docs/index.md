@@ -45,7 +45,7 @@ features:
 
 - <mark>服务器管理</mark>FeatherBlaze<br>
   <TkIcon icon="mdi:minecraft" /> FeaBlaze<br>
-  <TkIcon icon="arcticons:minecraft-steve" /> [FeatherBlaze (UID: 3503129, 角色: FeaBlaze/FeatherBlaze/FBlaze62/FB_MC)](https://littleskin.cn/skinlib?filter=skin&uploader=3503129)<br>
+  <TkIcon icon="arcticons:minecraft-steve" /> [FeatherBlaze (FeaBlaze/FeatherBlaze/FBlaze62/FB_MC)](https://littleskin.cn/skinlib?filter=skin&uploader=3503129)<br>
   <TkIcon icon="fa7-solid:envelope" /> [feablaze@outlook.com](mailto:feablaze@outlook.com)<br>
   <TkIcon icon="fa6-brands:qq" /> [3992485572 (QID: fblaze62)](https://qm.qq.com/q/BZygZfIjdu)<br>
   <TkIcon icon="fa7-brands:bilibili" /> [FeatherBlaze (UID: 3493078679686026)](https://space.bilibili.com/3493078679686026)<br>
