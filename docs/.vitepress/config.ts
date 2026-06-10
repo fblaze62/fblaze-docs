@@ -58,7 +58,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://doc.fblaze62.top", // ** 换成你的域名
+    hostname: "https://docs.fblaze62.top", // ** 换成你的域名
     transformItems: (items) => {
       const permalinkItemBak: typeof items = [];
       // 使用永久链接生成 sitemap
@@ -94,7 +94,16 @@ export default defineConfig({
         link: "/guide/player/download-modpack",
         activeMatch: "/01.玩家指南/01.加入服务器",
       },
-      { text: "管理员指南", link: "/guide/op/plugin/AuthMe", activeMatch: "/02.管理员指南/01.插件/" },
+      {
+        text: "管理员指南",
+        link: "/guide/op/plugin/AuthMe",
+        activeMatch: "/02.管理员指南/01.插件/"
+      },
+      {
+        text: "贡献指南",
+        link: "/guide/contribute/docs/edit",
+        activeMatch: "/03.贡献指南/01.维护文档/"
+      },
       // {
       //   text: "功能页",
       //   items: [
@@ -135,4 +144,9 @@ export default defineConfig({
   //   if (context.page !== "404.md") return code;
   //   return code.replace("404 | ", "");
   // },
+  // 滚动到评论区配置
+  toComment: {
+    enabled: false, // 是否启动滚动到评论区功能
+    done: TkMessage => TkMessage.success("滚动到评论区成功"), // 滚动到评论区后的回调
+  },
 });
