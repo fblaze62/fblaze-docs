@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: 管理员指南
       link: /guide/op/plugin/AuthMe
+    - theme: alt
+      text: 贡献指南
+      link: /guide/contribute/docs/edit
   image:
     src: https://gcore.jsdelivr.net/gh/fblaze62/fblaze-doc@main/docs/public/fblaze-logo-large.png
     alt: FBlazeServer
