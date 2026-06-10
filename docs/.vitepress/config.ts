@@ -102,7 +102,7 @@ export default defineConfig({
       {
         text: "贡献指南",
         link: "/guide/contribute/docs/edit",
-        activeMatch: "/03.贡献指南/01.修改文档/"
+        activeMatch: "/03.贡献指南/01.维护文档/"
       },
       // {
       //   text: "功能页",
