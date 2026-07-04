@@ -54,6 +54,7 @@ features:
   <TkIcon icon="fa7-brands:bilibili" /> [FeatherBlaze (UID: 3493078679686026)](https://space.bilibili.com/3493078679686026)<br>
   <TkIcon icon="fa7-brands:tiktok" /> [FeatherBlaze (抖音号: fblaze62)](https://www.douyin.com/user/MS4wLjABAAAAl5uvfzN213pYEYwH3z0Fg1EW0SXk8-oGHe11MUPSpK_bCYcZoevLky97wDl-siDR)<br>
   <TkIcon icon="simple-icons:xiaohongshu" /> [FeatherBlaze (小红书号: 42667737335)](https://www.xiaohongshu.com/user/profile/65eb08dd000000000500fc98)
+  <TkIcon icon="fa7-brands:zhihu" /> [FeatherBlaze](https://www.zhihu.com/people/featherblaze)
 - <mark>建筑管理</mark>天御千云<br>
   <TkIcon icon="mdi:minecraft" /> SKY_cloud_tyqy93<br>
   <TkIcon icon="fa7-solid:envelope" /> [3911422907@qq.com](mailto:3911422907@qq.com)<br>
