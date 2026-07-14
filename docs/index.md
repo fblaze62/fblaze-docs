@@ -20,7 +20,7 @@ hero:
     alt: FBlazeMatrix
 
 features:
-  - icon: 📖
+  - icon: 🔥
     title: 自由 开放 充满创造力
     details: 在这里，没有边界，只有想象力的极限！
   - icon: 🔒
@@ -29,16 +29,16 @@ features:
   - icon: 🦊
     title: 多模组
     details: 想要机械动力？暮色森林？还是农夫乐事？全都能满足！  
-  - icon: ✈️
+  - icon: 🔌
     title: 多插件
     details: 领地保护、传送、经济……一应俱全  
 ---
 
 ## 欢迎！
 
-这是 **飞焰矩阵 FBlaze Matrix** 服务器的文档，由FeatherBlaze维护，在这里你能找到关于飞焰服务器的一切。
+这是 **飞焰矩阵 FBlaze Matrix** 服务器的文档，由 FeatherBlaze 维护，在这里你能找到关于飞焰矩阵服务器的一切。
 
-**飞焰矩阵** 服务器是一个**自由、开放**的 *Minecraft1.21.1 NeoForge & Paper* 服务器，由 FeatherBlaze 和天御千云管理，托管于[简幻欢](https://simpfun.cn/)。同时设有创造服和生存服，玩家可以自由选择玩法。
+**飞焰矩阵** 服务器是一个**自由、开放**的 Minecraft 1.21.1 Youer(NeoForge+Paper) 服务器，由 FeatherBlaze 和天御千云管理，托管于[简幻欢](https://simpfun.cn/)。同时设有创造服和生存服，玩家可以自由选择玩法。
 
 ### 管理员团队
 
@@ -59,7 +59,7 @@ features:
 
 ## 反馈交流
 
-在游玩过程中有任何建议和想法，请反馈到QQ群“FBlaze Matrix·Players”（右上角图标）。你也可以通过[<TkIcon icon="fa7-solid:envelope" />mc@fblaze62.top](mailto:mc@fblaze62.top)联系我们。
+在游玩过程中有任何建议和想法，请反馈到QQ群“FBlaze Matrix·Players”（右上角图标）。你也可以通过 [<TkIcon icon="fa7-solid:envelope" />mc@fblaze62.top](mailto:mc@fblaze62.top) 联系我们。
 
 <script setup lang="ts">
 import { onMounted } from "vue";
