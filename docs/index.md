@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: 飞焰FBlaze
-  text: 服务器文档
+  name: FBlaze Matrix
+  text: 飞焰矩阵 文档
   tagline: ✨一个自由、开放的 Minecraft 服务器
   actions:
     - theme: brand
@@ -17,7 +17,7 @@ hero:
       link: /guide/contribute/docs/edit
   image:
     src: https://gcore.jsdelivr.net/gh/fblaze62/fblaze-doc@main/docs/public/fblaze-logo-large.png
-    alt: FBlazeServer
+    alt: FBlazeMatrix
 
 features:
   - icon: 📖
@@ -29,20 +29,16 @@ features:
   - icon: 🦊
     title: 多模组
     details: 想要机械动力？暮色森林？还是农夫乐事？全都能满足！  
-  - icon: 🪣
+  - icon: ✈️
     title: 多插件
     details: 领地保护、传送、经济……一应俱全  
 ---
 
 ## 欢迎！
 
-这是飞焰服务器的文档，由FeatherBlaze维护，在这里你能找到关于飞焰服务器的一切。
+这是 **飞焰矩阵 FBlaze Matrix** 服务器的文档，由FeatherBlaze维护，在这里你能找到关于飞焰服务器的一切。
 
-飞焰服务器是一个**自由、开放**的*Minecraft1.21.1 NeoForge*服务器，由FeatherBlaze和天御千云创建，托管于[简幻欢](https://simpfun.cn/)。同时设有创造服和生存服，玩家可以自由选择玩法。
-
-### 创立初衷
-
-创建该服务器主要目的是对标由X■■■s创建的**管理较差、要求严格、模组老旧、缺乏趣味**的■■服务器，其管理员X■■■s用严格的态度要求别人，且自身建筑水平一般。该服务器旨在跳出X■■■s的管理，创建一个能让玩家**和谐相处**的空间。
+**飞焰矩阵** 服务器是一个**自由、开放**的 *Minecraft1.21.1 NeoForge & Paper* 服务器，由 FeatherBlaze 和天御千云管理，托管于[简幻欢](https://simpfun.cn/)。同时设有创造服和生存服，玩家可以自由选择玩法。
 
 ### 管理员团队
 
@@ -63,7 +59,7 @@ features:
 
 ## 反馈交流
 
-在游玩过程中有任何建议和想法，请反馈到QQ群“飞焰FBlaze·Players”（右上角图标）。你也可以通过[<TkIcon icon="fa7-solid:envelope" />mc@fblaze62.top](mailto:mc@fblaze62.top)联系我们。
+在游玩过程中有任何建议和想法，请反馈到QQ群“FBlaze Matrix·Players”（右上角图标）。你也可以通过[<TkIcon icon="fa7-solid:envelope" />mc@fblaze62.top](mailto:mc@fblaze62.top)联系我们。
 
 <script setup lang="ts">
 import { onMounted } from "vue";
