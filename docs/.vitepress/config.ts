@@ -4,14 +4,14 @@ import { teekConfig } from "./teekConfig";
 
 const description = [
   "✨一个自由、开放的 Minecraft 服务器",
-  "这是飞焰服务器的文档，在这你可以找到关于飞焰服务器的一切。",
-  "<b>飞焰服务器（FBlaze Server）</b>是一个自由、开放的 <mark>Minecraft</mark> 服务器，欢迎各位玩家加入！",
+  "这是飞焰矩阵服务器的文档，在这你可以找到关于飞焰矩阵服务器的一切。",
+  "<b>飞焰矩阵 (FBlaze Matrix)</b>是一个自由、开放的 <mark>Minecraft</mark> 服务器，欢迎各位玩家加入！",
 ].toString();
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "飞焰服务器文档",
+  title: "飞焰矩阵 文档",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
@@ -24,8 +24,8 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/png", href: "/fb-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
-    ["meta", { property: "og:title", content: "飞焰服务器文档" }],
-    ["meta", { property: "og:site_name", content: "飞焰服务器文档" }],
+    ["meta", { property: "og:title", content: "飞焰矩阵 文档" }],
+    ["meta", { property: "og:site_name", content: "飞焰矩阵 文档" }],
     ["meta", { property: "og:image", content: "" }],
     ["meta", { property: "og:url", content: "" }],
     ["meta", { property: "og:description", description }],
