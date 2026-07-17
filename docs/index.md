@@ -55,7 +55,7 @@ features:
   <TkIcon icon="mdi:minecraft" /> SKY_cloud_tyqy93<br>
   <TkIcon icon="fa7-solid:envelope" /> [3911422907@qq.com](mailto:3911422907@qq.com)<br>
   <TkIcon icon="fa6-brands:qq" /> 3911422907<br>
-  <TkIcon icon="fa7-brands:bilibili" /> [天御千云TianYun](https://space.bilibili.com/3546898069719530)<br>
+  <TkIcon icon="fa7-brands:bilibili" /> [天御千云TianYun (UID: 3546898069719530)](https://space.bilibili.com/3546898069719530)<br>
 
 ## 反馈交流
 
