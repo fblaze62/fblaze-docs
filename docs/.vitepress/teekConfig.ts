@@ -24,4 +24,33 @@ export const teekConfig = defineTeekConfig({
       initItems: false,
     },
   },
+  // 文章页底部的最近更新栏配置
+  articleUpdate: {
+    enabled: false, // 是否启用文章最近更新栏
+    limit: 3, // 文章最近更新栏显示数量
+  },
+  // 评论配置，目前内置 Giscus、Twikoo、Waline、Artalk 四种评论插件
+  comment: {
+    provider: "waline", // 评论区提供者
+    // 评论区配置项，根据 provider 不同而不同，具体看对应官网的使用介绍
+    options: {
+      // twikoo 配置，官网：https://twikoo.js.org/
+      // envId: "your envId",
+
+      // waline 配置，官网：https://waline.js.org/
+      serverURL: "https://cmts.docs.fblaze62.top",
+      jsLink: "https://unpkg.com/@waline/client@v3/dist/waline.js",
+      cssLink: "https://unpkg.com/@waline/client@v3/dist/waline.css",
+
+      // giscus 配置，官网：https://giscus.app/zh-CN
+      // repo: "your name/your repo",
+      // repoId: "your repoId",
+      // category: "your category",
+      // categoryId: "your categoryId",
+
+      // artalk 配置，官网：https://artalk.js.org/
+      // server: "your server",
+      // site: "site",
+    },
+  },
 });
