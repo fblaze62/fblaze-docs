@@ -38,7 +38,7 @@ features:
 
 这是 **飞焰矩阵 FBlaze Matrix** 服务器的文档，由 FeatherBlaze 维护，在这里你能了解飞焰矩阵服务器的玩法、功能的信息。
 
-**飞焰矩阵** 服务器是一个**自由、开放**的 Minecraft 1.21.1 Youer(NeoForge+Paper) 服务器，由 FeatherBlaze 和天御千云管理，托管于[简幻欢](https://simpfun.cn/)。同时设有创造服和生存服，玩家可以自由选择玩法。
+**飞焰矩阵** 服务器是一个**自由、开放**的 Minecraft 1.21.1 Youer(NeoForge+Paper) 服务器，由 FeatherBlaze 和天御千云管理。同时设有生存和创造两个存档，玩家可以自由选择玩法。
 
 ### 管理员团队
 
