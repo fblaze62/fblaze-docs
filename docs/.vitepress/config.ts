@@ -1,11 +1,15 @@
 import { defineConfig } from "vitepress";
 import llmstxt from "vitepress-plugin-llms";
-import { teekConfig } from "./teekConfig";
+import { teekConfig } from "./teek-config";
+// 本地 Teek 主题包引用（与 Teek 在线主题包引用 二选一）
+import { version } from "../../packages/teek/version";
+
+// Teek 在线主题包引用（需安装 Teek 在线版本）
+// import { version } from "vitepress-theme-teek/es/version";
 
 const description = [
-  "✨一个自由、开放的 Minecraft 服务器",
+  "✨一个自由、开放的 Minecraft 服务器，欢迎各位玩家加入！",
   "这是飞焰矩阵服务器的文档，在这你可以找到关于飞焰矩阵服务器的一切。",
-  "<b>飞焰矩阵 (FBlaze Matrix)</b>是一个自由、开放的 <mark>Minecraft</mark> 服务器，欢迎各位玩家加入！",
 ].toString();
 
 // https://vitepress.dev/reference/site-config
@@ -17,17 +21,14 @@ export default defineConfig({
   lastUpdated: true,
   lang: "zh-CN",
   head: [
-    [
-      "link",
-      { rel: "icon", type: "image/svg+xml", href: "https://gcore.jsdelivr.net/gh/fblaze62/fblaze-doc@main/docs/public/fb-logo-mini.svg" },
-    ],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/fb-logo-mini.svg" }],
     ["link", { rel: "icon", type: "image/png", href: "/fb-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
     ["meta", { property: "og:title", content: "飞焰矩阵 文档" }],
     ["meta", { property: "og:site_name", content: "飞焰矩阵 文档" }],
-    ["meta", { property: "og:image", content: "" }],
-    ["meta", { property: "og:url", content: "" }],
+    ["meta", { property: "og:image", content: "/fb-logo-large.png" }],
+    ["meta", { property: "og:url", content: "https://docs.fblaze62.top" }],
     ["meta", { property: "og:description", description }],
     ["meta", { name: "description", description }],
     ["meta", { name: "author", content: "FeatherBlaze" }],
@@ -40,6 +41,14 @@ export default defineConfig({
     //   },
     // ],
     ["meta", { name: "keywords", description }],
+    ["meta", { name: "baidu-site-verification", content: "codeva-GdK2q9MO1i" }], // 百度收录
+    ["meta", { name: "msvalidate.01", content: "48CABE70F538B8D117567176ABF325AF" }], // Bing 收录验证
+    ["script", { charset: "UTF-8", id: "LA_COLLECT", src: "//sdk.51.la/js-sdk-pro.min.js" }], // 51.la
+    [
+      "script",
+      {},
+      `typeof LA !== 'undefined' && LA.init({ id: "3LqfP8Icg0GeEvtn", ck: "3LqfP8Icg0GeEvtn", hashMode: true })`,
+    ], // 51.la
   ],
   markdown: {
     // 开启行号
@@ -58,23 +67,21 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://docs.fblaze62.top", // ** 换成你的域名
-    transformItems: (items) => {
+    hostname: "https://docs.fblaze62.top",
+    transformItems: items => {
       const permalinkItemBak: typeof items = [];
       // 使用永久链接生成 sitemap
-      const permalinks = (globalThis as any).VITEPRESS_CONFIG.site.themeConfig
-        .permalinks;
-      items.forEach((item) => {
-        const permalink = permalinks?.map[item.url];
-        if (permalink)
-          permalinkItemBak.push({ url: permalink, lastmod: item.lastmod });
+      const permalinks = (globalThis as any).VITEPRESS_CONFIG.site.themeConfig.permalinks;
+      items.forEach(item => {
+        const permalink = permalinks?.map[item.url.replace(".html", "")];
+        if (permalink) permalinkItemBak.push({ url: permalink, lastmod: item.lastmod });
       });
       return [...items, ...permalinkItemBak];
     },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "https://gcore.jsdelivr.net/gh/fblaze62/fblaze-doc@main/docs/public/fb-logo-mini.svg",
+    logo: "/fb-logo-mini.svg",
     darkModeSwitchLabel: "主题",
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
@@ -105,16 +112,47 @@ export default defineConfig({
         activeMatch: "/03.贡献指南/01.维护文档/"
       },
       // {
+      //   text: "指南",
+      //   link: "/guide/intro",
+      //   activeMatch: "/01.指南/",
+      // },
+      // { text: "配置", link: "/reference/config", activeMatch: "/10.配置/" },
+      // { text: "开发", link: "/develop/intro", activeMatch: "/15.主题开发/" },
+      // {
+      //   text: "资源",
+      //   items: [
+      //     { text: "案例", link: "/resources/case" },
+      //     { text: "常见问题", link: "/resources/qa" },
+      //     { text: "功能拓展", link: "/resources/expand/intro" },
+      //   ],
+      // },
+      // {
+      //   text: "生态",
+      //   items: [
+      //     { text: "Components 组件", link: "/ecosystem/components" },
+      //     { text: "运行时 API", link: "/ecosystem/runtime-api" },
+      //     { text: "Helper 工具", link: "/ecosystem/helper" },
+      //     { text: "Composables 函数", link: "/ecosystem/composables" },
+      //     { text: "Markdown 插件工具", link: "/ecosystem/md-plugin-utils" },
+      //   ],
+      // },
+      // {
       //   text: "功能页",
       //   items: [
       //     { text: "归档页", link: "/archives" },
       //     { text: "清单页", link: "/articleOverview" },
-      //     {
-      //       text: "风险链接提示页",
-      //       link: "/risk-link?target=https://vp.teek.top",
-      //     },
+      //     { text: "登录页", link: "/login" },
+      //     { text: "风险链接提示页", link: "/risk-link?target=https://vp.teek.top" },
       //     { text: "分类页", link: "/categories" },
       //     { text: "标签页", link: "/tags" },
+      //   ],
+      // },
+      // { text: "✨ 赞赏", link: "/personal/" },
+      // {
+      //   text: version,
+      //   items: [
+      //     { text: "历史版本", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/releases" },
+      //     { text: "更新日志", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek/blob/dev/CHANGELOG.md" },
       //   ],
       // },
     ],
@@ -125,16 +163,24 @@ export default defineConfig({
       },
       {
         icon: "github",
-        link: "https://github.com/fblaze62/fblaze-doc",
+        link: "https://github.com/Kele-Bingtang/vitepress-theme-teek"
+      },
+      {
+        icon: "youjian",
+        link: "mailto:mc@fblaze62.top"
       },
     ],
     search: {
-      provider: "local",
+      provider: "algolia",
+      options: {
+        appId: "1A0S3L09B7",
+        apiKey: "0e959cf354e1de95f13fbf236d8fdf41",
+        indexName: "fblaze-docs",
+      },
     },
     editLink: {
       text: "在 GitHub 上编辑此页",
-      pattern:
-        "https://github.com/fblaze62/fblaze-doc/edit/main/docs/:path",
+      pattern: "https://github.com/fblaze62/fblaze-doc/edit/main/docs/:path",
     },
   },
   vite: {
@@ -144,9 +190,4 @@ export default defineConfig({
   //   if (context.page !== "404.md") return code;
   //   return code.replace("404 | ", "");
   // },
-  // 滚动到评论区配置
-  toComment: {
-    enabled: true, // 是否启动滚动到评论区功能
-    done: TkMessage => TkMessage.success("滚动到评论区成功"), // 滚动到评论区后的回调
-  },
 });
