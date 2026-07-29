@@ -104,12 +104,12 @@ export default defineConfig({
       {
         text: "管理员指南",
         link: "/guide/op/plugin/AuthMe",
-        activeMatch: "/02.管理员指南/01.插件/"
+        activeMatch: "/02.管理员指南/01.插件/",
       },
       {
         text: "贡献指南",
         link: "/guide/contribute/docs/edit",
-        activeMatch: "/03.贡献指南/01.维护文档/"
+        activeMatch: "/03.贡献指南/01.维护文档/",
       },
       // {
       //   text: "指南",
@@ -159,15 +159,15 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "qq",
-        link: "https://qm.qq.com/cgi-bin/qm/qr?k=9nXo2s8a3l7b1h0ZyKjYl5u9eQGgHqN&jump_from=webapi"
+        link: "https://qm.qq.com/q/WXI8ntxaow",
       },
       {
         icon: "github",
-        link: "https://github.com/Kele-Bingtang/vitepress-theme-teek"
+        link: "https://github.com/Kele-Bingtang/vitepress-theme-teek",
       },
       {
         icon: "youjian",
-        link: "mailto:mc@fblaze62.top"
+        link: "mailto:mc@fblaze62.top",
       },
     ],
     search: {

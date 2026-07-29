@@ -25,13 +25,13 @@ features:
     details: 在这里，没有边界，只有想象力的极限！
   - icon: 🔒
     title: 安全托管 全天备份
-    details: 稳定运行，安心游玩，我们守护你的每一块方块！  
+    details: 稳定运行，安心游玩，我们守护你的每一块方块！
   - icon: 🦊
     title: 多模组
-    details: 想要机械动力？暮色森林？还是农夫乐事？全都能满足！  
+    details: 想要机械动力？暮色森林？还是农夫乐事？全都能满足！
   - icon: 🔌
     title: 多插件
-    details: 领地保护、传送、经济……一应俱全  
+    details: 领地保护、传送、经济……一应俱全
 ---
 
 ## 欢迎！
@@ -59,7 +59,7 @@ features:
 
 ## 反馈交流
 
-在游玩过程中有任何建议和想法，请反馈到QQ群“FBlaze Matrix·Players”（右上角图标）。你也可以通过 [<TkIcon icon="fa7-solid:envelope" />mc@fblaze62.top](mailto:mc@fblaze62.top) 联系我们。
+在游玩过程中有任何建议和想法，请反馈到QQ群 [FBlaze Matrix·Players](https://qm.qq.com/q/WXI8ntxaow)。你也可以通过 [<TkIcon icon="fa7-solid:envelope" />mc@fblaze62.top](mailto:mc@fblaze62.top) 联系我们。
 
 <script setup lang="ts">
 import { onMounted } from "vue";
