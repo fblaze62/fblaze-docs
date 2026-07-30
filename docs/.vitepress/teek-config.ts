@@ -13,8 +13,8 @@ export const teekConfig = defineTeekConfig({
   sidebarTrigger: true,
   author: { name: "FeatherBlaze", link: "https://github.com/fblaze62" },
   blogger: {
-    name: "飞焰矩阵",
-    slogan: "一个自由、开放的 Minecraft 服务器",
+    name: "飞焰矩阵 文档",
+    slogan: "",
     avatar: "https://gcore.jsdelivr.net/gh/fblaze62/fblaze-docs/docs/public/fblaze-logo-large.png",
     shape: "square",
     circleBgImg: "/blog/bg4.webp",
