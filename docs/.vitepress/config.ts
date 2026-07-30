@@ -171,11 +171,11 @@ export default defineConfig({
       },
     ],
     search: {
-      provider: "algolia",
+      provider: "local",
       options: {
-        appId: "1A0S3L09B7",
-        apiKey: "0e959cf354e1de95f13fbf236d8fdf41",
-        indexName: "fblaze-docs",
+        appId: "",
+        apiKey: "",
+        indexName: "",
       },
     },
     editLink: {
