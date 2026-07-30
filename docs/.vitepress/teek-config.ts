@@ -15,7 +15,7 @@ export const teekConfig = defineTeekConfig({
   blogger: {
     name: "飞焰矩阵",
     slogan: "一个自由、开放的 Minecraft 服务器",
-    avatar: "https://gcore.jsdelivr.net/gh/fblaze62/fblaze-docs/docs/public/fb-logo-large.png",
+    avatar: "https://gcore.jsdelivr.net/gh/fblaze62/fblaze-docs/docs/public/fblaze-logo-large.png",
     shape: "square",
     circleBgImg: "/blog/bg4.webp",
     color: "#ffffff",
