@@ -181,6 +181,7 @@ export const teekConfig = defineTeekConfig({
     },
   ],
   themeEnhance: {
+    enabled: false, // 启用主题增强功能
     themeColor: {
       append: [
         {
