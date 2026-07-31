@@ -16,7 +16,7 @@ hero:
       text: 贡献指南
       link: /guide/contribute/docs/edit
   image:
-    src: https://gcore.jsdelivr.net/gh/fblaze62/fblaze-doc@main/docs/public/fblaze-logo-large.png
+    src: https://gcore.jsdelivr.net/gh/fblaze62/fblaze-doc@main/docs/public/fm-logo-large.png
     alt: FBlazeMatrix
 
 features:

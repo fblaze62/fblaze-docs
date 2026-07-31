@@ -21,13 +21,13 @@ export default defineConfig({
   lastUpdated: true,
   lang: "zh-CN",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/fb-logo-mini.svg" }],
-    ["link", { rel: "icon", type: "image/png", href: "/fb-logo-mini.png" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/fm-logo-mini.svg" }],
+    ["link", { rel: "icon", type: "image/png", href: "/fm-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
     ["meta", { property: "og:title", content: "飞焰矩阵 文档" }],
     ["meta", { property: "og:site_name", content: "飞焰矩阵 文档" }],
-    ["meta", { property: "og:image", content: "/fb-logo-large.png" }],
+    ["meta", { property: "og:image", content: "/fm-logo-large.png" }],
     ["meta", { property: "og:url", content: "https://docs.fblaze62.top" }],
     ["meta", { property: "og:description", description }],
     ["meta", { name: "description", description }],
@@ -81,7 +81,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/fb-logo-mini.svg",
+    logo: "/fm-logo-mini.svg",
     darkModeSwitchLabel: "主题",
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
