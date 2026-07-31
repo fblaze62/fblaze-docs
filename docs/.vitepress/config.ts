@@ -163,7 +163,7 @@ export default defineConfig({
       },
       {
         icon: "github",
-        link: "https://github.com/Kele-Bingtang/vitepress-theme-teek",
+        link: "https://github.com/fblaze62/fblaze-docs",
       },
     ],
     search: {
