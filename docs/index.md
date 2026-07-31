@@ -42,7 +42,7 @@ features:
 
 ### 管理员团队
 
-- <mark>服务器/文档管理</mark>FeatherBlaze<br>
+- <mark>服务器管理</mark><mark>整合包作者</mark><mark>Q群群主</mark><mark>文档贡献者</mark> FeatherBlaze<br>
   <TkIcon icon="mdi:minecraft" /> FeaBlaze<br>
   <TkIcon icon="arcticons:minecraft-steve" /> [FeatherBlaze (FeaBlaze/FeatherBlaze/FBlaze62/FB_MC)](https://littleskin.cn/skinlib?filter=skin&uploader=3503129)<br>
   <TkIcon icon="fa7-solid:envelope" /> [feablaze@outlook.com](mailto:feablaze@outlook.com)<br>
@@ -51,7 +51,7 @@ features:
   <TkIcon icon="fa7-brands:tiktok" /> [FeatherBlaze (抖音号: fblaze62)](https://www.douyin.com/user/MS4wLjABAAAAl5uvfzN213pYEYwH3z0Fg1EW0SXk8-oGHe11MUPSpK_bCYcZoevLky97wDl-siDR)<br>
   <TkIcon icon="simple-icons:xiaohongshu" /> [FeatherBlaze (小红书号: 42667737335)](https://www.xiaohongshu.com/user/profile/65eb08dd000000000500fc98)<br>
   <TkIcon icon="fa7-brands:zhihu" /> [FeatherBlaze](https://www.zhihu.com/people/featherblaze)
-- <mark>建筑管理</mark>天御千云<br>
+- <mark>建筑管理</mark><mark>Q群管理</mark> 天御千云<br>
   <TkIcon icon="mdi:minecraft" /> SKY_cloud_tyqy93<br>
   <TkIcon icon="fa7-solid:envelope" /> [3911422907@qq.com](mailto:3911422907@qq.com)<br>
   <TkIcon icon="fa6-brands:qq" /> 3911422907<br>
