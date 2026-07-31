@@ -165,10 +165,6 @@ export default defineConfig({
         icon: "github",
         link: "https://github.com/Kele-Bingtang/vitepress-theme-teek",
       },
-      {
-        icon: "youjian",
-        link: "mailto:mc@fblaze62.top",
-      },
     ],
     search: {
       provider: "local",
